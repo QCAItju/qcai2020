@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## QCAI
 
 You can use the [editor on GitHub](https://github.com/QCAItju/qcai.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
