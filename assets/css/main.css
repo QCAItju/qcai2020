@@ -44,6 +44,9 @@ blockquote, q {
 		content: '';
 		content: none;
 	}
+.jianjie{
+        align-items: center;
+}
 .xiuxi1 {
 	      
 			margin: 0 0 1em 45%;
@@ -2568,17 +2571,25 @@ input, select, textarea {
 				}
 
 /* Image */
-
+    img{
+		width:135px;
+		height: 180px;
+		margin-left:60%;
+		margin-top: 70%;
+		/* padding: 1,1,1,1; */
+	}
 	.image {
 		border-radius: 0.25em;
 		border: 0;
 		display: inline-block;
 		position: relative;
+	
 	}
 
 		.image img {
 			border-radius: 0.25em;
 			display: block;
+		
 		}
 
 		.image.left, .image.right {
@@ -3215,7 +3226,7 @@ input, select, textarea {
 	}
 
 		.wrapper > .inner {
-			padding: 5em 5em 3em 5em ;
+			padding: 2em 1em 1em 1em ;
 			max-width: 100%;
 			width: 75em;
 		}
