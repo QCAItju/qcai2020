@@ -7,7 +7,7 @@
 */
 
 html, body, div, span, applet, object,
-iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
+iframe, h1, h2, h3, h4, h5, h6,  blockquote,
 pre, a, abbr, acronym, address, big, cite,
 code, del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var, b,
@@ -22,7 +22,8 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;}
+	vertical-align: baseline;
+}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -30,6 +31,28 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
+}
+h1.hhh{
+	/* color:rgba(255, 255, 255, 0.75); */
+	text-align: center;
+	margin-top: 0;
+	padding-top: 0%;
+	padding-bottom: 0%;
+}
+
+h2.hhh2{
+	color:rgba(255, 255, 255, 0.75);
+	text-align: right;
+	margin-right: 15%;
+	font-size: xx-large;
+	font-weight: lighter;
+}
+h2.hhh22{
+	color:rgba(255, 255, 255, 0.75);
+	/* text-align: right;
+	margin-right: 15%; */
+	font-size: x-large;
+	font-weight: lighter;
 }
 
 ol, ul {
@@ -3226,10 +3249,17 @@ input, select, textarea {
 	}
 
 		.wrapper > .inner {
-			padding: 2em 1em 1em 1em ;
+			margin-top: 1px;
+			padding: 0em 4em 0em 4em ;
 			max-width: 100%;
 			width: 75em;
 		}
+		.wrapper > .inner > p{
+		margin: 1% 1%;
+		}
+		/* .wrapper > .inner > h1{
+			margin-top: 10px ;
+			} */
 
 			@media screen and (max-width: 1680px) {
 
@@ -3544,7 +3574,7 @@ input, select, textarea {
 
 	#sidebar {
 		padding: 2.5em 2.5em 0.5em 2.5em ;
-		background: #3F4045;
+		background: #3a5258a2;
 		cursor: default;
 		height: 100vh;
 		left: 0;
@@ -3895,13 +3925,45 @@ input, select, textarea {
 	#intro {
 		background-attachment: fixed;
 		background-image: url("images/intro.svg");
+		background-color: #3a9399;
 		background-position: top right;
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
+		/* filter: 50%;
+		 */
+		/* -moz-opacity:50%; */
+	
 	}
 
 		#intro p {
-			font-size: 1.25em;
+			/* font-size: 0.1em; */
+			color:rgba(255, 255, 255, 0.5);
+			text-align:justify;
+			margin-left: initial;
+			margin-right: initial;
+			margin-top: inherit;
+			font-weight: lighter;
+			font-size: x-large;
+		}
+		#intro .ppp{
+			/* font-size: 0.1em; */
+			color:rgba(255, 255, 255, 0.5);
+			font-size: large;
+			margin-left: 65%;
+			margin-top: 10%;
+			align-items:left;
+		}
+		#intro h1 {
+			/* font-size: 0.1em; */
+			/* color:rgba(255, 255, 255, 0.5); */
+			/* text-align:justify; */
+			color:rgba(255, 255, 255, 0.75);
+			font-weight: lighter;
+			/* font-size: x-large; */
+		}
+		#intro h2{
+			color:rgba(255, 255, 255, 0.75);
+			font-weight: lighter;
 		}
 
 			@media screen and (max-width: 980px) {
