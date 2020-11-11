@@ -2572,10 +2572,10 @@ input, select, textarea {
 
 /* Image */
     img{
-		width:135px;
-		height: 180px;
-		margin-left:60%;
-		margin-top: 70%;
+		width:55%;
+		
+		margin-left:40%;
+		margin-top: 40%;
 		/* padding: 1,1,1,1; */
 	}
 	.image {
