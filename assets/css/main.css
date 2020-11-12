@@ -7,7 +7,7 @@
 */
 
 html, body, div, span, applet, object,
-iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
+iframe, h1, h2, h3, h4, h5, h6,  blockquote,
 pre, a, abbr, acronym, address, big, cite,
 code, del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var, b,
@@ -22,7 +22,8 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;}
+	vertical-align: baseline;
+}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -30,6 +31,38 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
+}
+/* .iicon{
+	display: inherit;
+	font-size: inherit;
+} */
+.email{
+	width:4%;
+	height: 4%;
+	background-color:#3a9399;
+	
+}
+h1.hhh{
+	/* color:rgba(255, 255, 255, 0.75); */
+	text-align: center;
+	margin-top: 0;
+	padding-top: 0%;
+	padding-bottom: 0%;
+}
+
+h2.hhh2{
+	color:rgba(255, 255, 255, 0.75);
+	text-align: right;
+	margin-right: 15%;
+	font-size: xx-large;
+	font-weight: lighter;
+}
+h2.hhh22{
+	color:rgba(255, 255, 255, 0.75);
+	/* text-align: right;
+	margin-right: 15%; */
+	font-size: x-large;
+	font-weight: lighter;
 }
 
 ol, ul {
@@ -62,7 +95,7 @@ table {
 
 body {
 	-webkit-text-size-adjust: none;
-}
+}inner
 
 mark {
 	background-color: transparent;
@@ -161,7 +194,7 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease, border-bottom-color 0.2s ease;
 		-ms-transition: color 0.2s ease, border-bottom-color 0.2s ease;
 		transition: color 0.2s ease, border-bottom-color 0.2s ease;
-		border-bottom: dotted 1px rgba(255, 255, 255, 0.35);
+		/* border-bottom: dotted 1px rgba(255, 255, 255, 0.35); */
 		color: inherit;
 		text-decoration: none;
 	}
@@ -2000,7 +2033,7 @@ input, select, textarea {
 		border-radius: 0.25em;
 		border: solid 1px rgba(255, 255, 255, 0.15);
 		background: rgba(255, 255, 255, 0.05);
-		margin: 0 0 2em 0;
+		margin: 0 0 2px 0;
 		
 	}
 
@@ -2499,6 +2532,7 @@ input, select, textarea {
 		text-decoration: none;
 		border-bottom: none;
 		position: relative;
+		font-size: 20px;
 	}
 
 		.icon:before {
@@ -2574,8 +2608,8 @@ input, select, textarea {
     img{
 		width:55%;
 		
-		margin-left:10%;
-		margin-top: 10%;
+		margin-left:21%;
+		margin-top: 0;
 		/* padding: 1,1,1,1; */
 	}
 	.image {
@@ -2806,21 +2840,57 @@ input, select, textarea {
 		}
 
 /* Contact */
-
+/* @font-face {
+	font-family: 'iconfont';  
+	src: url('//at.alicdn.com/t/font_2199203_94m7qrmxw8p.eot');
+	src: url('//at.alicdn.com/t/font_2199203_94m7qrmxw8p.eot?#iefix') format('embedded-opentype'),
+	url('//at.alicdn.com/t/font_2199203_94m7qrmxw8p.woff2') format('woff2'),
+	url('//at.alicdn.com/t/font_2199203_94m7qrmxw8p.woff') format('woff'),
+	url('//at.alicdn.com/t/font_2199203_94m7qrmxw8p.ttf') format('truetype'),
+	url('//at.alicdn.com/t/font_2199203_94m7qrmxw8p.svg#iconfont') format('svg');
+  }
+  .iconfont{
+	  font-family: "iconfont" !important;
+	  font-size: 30px;
+	  color:red;
+	  font-style: inherit;
+	  -webkit-font-smoothing:antialiased;
+	  -moz-osx-font-smoothing:grayscale;
+  } */
+.cont{
+	margin-left: 30%;
+}
 	ul.contact {
 		list-style: none;
-		padding: 0;
+		padding: 0 0 0 0 ;
+		font-weight: lighter;
+		/* height: 100%; */
+		margin-left: 0%;
 	}
+	/* @media screen and (max-width: 980px) {
+
+		ul.contact {
+			list-style: none;
+			padding: 0 0 0 0 ;
+			font-weight: lighter;
+			height: 100%;
+			margin-left: inherit;
+		}
+	}
+	 */
+
 
 		ul.contact > li {
-			padding: 0;
-			margin: 1.5em 0 0 0;
+			padding: 0 0 0 0;
+			margin: 0em 0 0 0;
 		}
 
 			ul.contact > li:first-child {
 				margin-top: 0;
 			}
-
+			ul.contact > li:last-child {
+				margin-bottom: 0;
+			}
 /* Icons */
 
 	ul.icons {
@@ -2918,6 +2988,10 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
+		margin-bottom: 0;
+		height: 100%;
+		padding-bottom: 0;
+		margin-left: 25%;
 	}
 
 		.split > * {
@@ -2926,7 +3000,7 @@ input, select, textarea {
 
 		.split > :nth-child(2n - 1) {
 			padding-right: 2.5em;
-			border-right: solid 1px rgba(255, 255, 255, 0.15);
+			/* border-right: solid 1px rgba(255, 255, 255, 0.15); */
 		}
 
 		.split > :nth-child(2n) {
@@ -2968,7 +3042,7 @@ input, select, textarea {
 		@media screen and (max-width: 980px) {
 
 			.split {
-				display: block;
+				display: inline;
 			}
 
 				.split > * {
@@ -3080,16 +3154,69 @@ input, select, textarea {
 				-ms-transition: opacity 1s ease, -ms-transform 1s ease;
 				transition: opacity 1s ease, transform 1s ease;
 				opacity: 1;
+				font-family: 'Times New Roman', Times, serif;
+					text-align:justify;
+				
 			}
 
 		.spotlights > section:nth-child(2) {
-			background-color: rgba(0, 0, 0, 0.05);
+			background-color: rgba(0, 0, 0, 0.5);
 		}
 
 		.spotlights > section:nth-child(3) {
-			background-color: rgba(0, 0, 0, 0.1);
+			background-color: rgba(0, 0, 0, 0.2);
 		}
-
+		.spotlights > section:nth-child(4) {
+			background-color: rgba(0, 0, 0, 0.5);
+		}
+		.spotlights > section:nth-child(5) {
+			background-color: rgba(0, 0, 0, 0.2);
+		}
+		.spotlights > section:nth-child(6) {
+			background-color: rgba(0, 0, 0, 0.5);
+		}
+		.spotlights > section:nth-child(7) {
+			background-color: rgba(0, 0, 0, 0.2);
+		}
+		.spotlights > section:nth-child(8) {
+			background-color: rgba(0, 0, 0, 0.5);
+		}
+		.spotlights > section:nth-child(9) {
+			background-color: rgba(0, 0, 0, 0.2);
+		}
+		.spotlights > section:nth-child(10) {
+			background-color: rgba(0, 0, 0, 0.5);
+		}
+		.spotlights > section:nth-child(11) {
+			background-color: rgba(0, 0, 0, 0.2);
+		}
+		.spotlights > section:nth-child(12) {
+			background-color: rgba(0, 0, 0, 0.5);
+		}
+		.spotlights > section:nth-child(13) {
+			background-color: rgba(0, 0, 0, 0.2);
+		}
+		.spotlights > section:nth-child(14) {
+			background-color: rgba(0, 0, 0, 0.5);
+		}
+		.spotlights > section:nth-child(15) {
+			background-color: rgba(0, 0, 0, 0.2);
+		}
+		.spotlights > section:nth-child(16) {
+			background-color: rgba(0, 0, 0, 0.5);
+		}
+		.spotlights > section:nth-child(17) {
+			background-color: rgba(0, 0, 0, 0.2);
+		}
+		.spotlights > section:nth-child(18) {
+			background-color: rgba(0, 0, 0, 0.5);
+		}
+		.spotlights > section:nth-child(19) {
+			background-color: rgba(0, 0, 0, 0.2);
+		}
+		.spotlights > section:nth-child(20) {
+			background-color: rgba(0, 0, 0, 0.5);
+		}
 		.spotlights > section.inactive > .image:before,
 		body.is-preload .spotlights > section > .image:before {
 			opacity: 1;
@@ -3158,7 +3285,7 @@ input, select, textarea {
 	}
 
 	table {
-		margin: 0 0 1em 0;
+		margin: 0 0 0em 0;
 		width: 100%;
 	}
 
@@ -3226,10 +3353,18 @@ input, select, textarea {
 	}
 
 		.wrapper > .inner {
-			padding: 2em 1em 1em 1em ;
+			margin-top: 1px;
+			padding: 0em 4em 0em 4em ;
 			max-width: 100%;
 			width: 75em;
+			
 		}
+		.wrapper > .inner > p{
+		margin-top: 1px;
+		}
+		/* .wrapper > .inner > h1{
+			margin-top: 10px ;
+			} */
 
 			@media screen and (max-width: 1680px) {
 
@@ -3544,7 +3679,7 @@ input, select, textarea {
 
 	#sidebar {
 		padding: 2.5em 2.5em 0.5em 2.5em ;
-		background: #3F4045;
+		background: #3a5258a2;
 		cursor: default;
 		height: 100vh;
 		left: 0;
@@ -3895,19 +4030,68 @@ input, select, textarea {
 	#intro {
 		background-attachment: fixed;
 		background-image: url("images/intro.svg");
+		background-color: #3a9399;
 		background-position: top right;
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
+		/* filter: 50%;
+		 */
+		/* -moz-opacity:50%; */
+	
 	}
 
 		#intro p {
-			font-size: 1.25em;
+			/* font-size: 0.1em; */
+			color:rgba(255, 255, 255, 0.5);
+			text-align:justify;
+			margin-left: initial;
+			margin-right: initial;
+			margin-top: inherit;
+			font-weight: lighter;
+			font-size: x-large;
+		}
+		#intro .ppp{
+			/* font-size: 0.1em; */
+			color:rgba(255, 255, 255, 0.5);
+			font-size: large;
+			margin-left: 60%;
+			margin-top: 10%;
+			text-align:left;
+		}
+		#intro .ppp1{
+			/* font-size: 0.1em; */
+			color:rgba(255, 255, 255, 0.5);
+			font-size: large;
+			margin-left: 65%;
+			margin-top: 0;
+			text-align:left;
+		}
+		#intro h1 {
+			/* font-size: 0.1em; */
+			/* color:rgba(255, 255, 255, 0.5); */
+			/* text-align:justify; */
+			color:rgba(255, 255, 255, 0.75);
+			font-weight: lighter;
+			/* font-size: x-large; */
+		}
+		#intro h2{
+			color:rgba(255, 255, 255, 0.75);
+			font-weight: lighter;
 		}
 
 			@media screen and (max-width: 980px) {
 
 				#intro p br {
-					display: none;
+					display: inherit;
+					
+				}
+				
+				#intro p.ppp{
+					font-size: 0.7em;
+					margin: 0 0 0 0;
+				
+			
+					
 				}
 
 			}
