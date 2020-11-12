@@ -3951,7 +3951,15 @@ input, select, textarea {
 			font-size: large;
 			margin-left: 65%;
 			margin-top: 10%;
-			align-items:left;
+			text-align:left;
+		}
+		#intro .ppp1{
+			/* font-size: 0.1em; */
+			color:rgba(255, 255, 255, 0.5);
+			font-size: large;
+			margin-left: 65%;
+			margin-top: 0;
+			text-align:left;
 		}
 		#intro h1 {
 			/* font-size: 0.1em; */
@@ -3969,7 +3977,19 @@ input, select, textarea {
 			@media screen and (max-width: 980px) {
 
 				#intro p br {
-					display: none;
+					display: inherit;
+					
+				}
+				
+				#intro p.ppp{
+					font-size: smaller;
+					margin: auto;
+					
+				}
+				#intro p.ppp1{
+					font-size: smaller;
+					margin: auto;
+					
 				}
 
 			}
