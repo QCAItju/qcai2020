@@ -2832,13 +2832,16 @@ input, select, textarea {
 /* Contact */
 
 .cont{
-	margin-left: 40%;
+	margin-left: 38%;
 }
 	ul.contact {
 		list-style: none;
 		padding: 0 0 0 0 ;
+		font-weight: lighter;
 		/* height: 100%; */
+		margin-left: 0%;
 	}
+	
 
 		ul.contact > li {
 			padding: 0 0 0 0;
