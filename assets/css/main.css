@@ -44,7 +44,17 @@ blockquote, q {
 		content: '';
 		content: none;
 	}
-
+.jianjie{
+        align-items: center;
+}
+.xiuxi1 {
+	      
+			margin: 0 0 1em 45%;
+}
+.TH{
+	padding:0.75em 0 0.75em 0;
+	
+}
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
@@ -1991,15 +2001,16 @@ input, select, textarea {
 		border: solid 1px rgba(255, 255, 255, 0.15);
 		background: rgba(255, 255, 255, 0.05);
 		margin: 0 0 2em 0;
+		
 	}
 
 		.features section {
 			padding: 3.5em 3em 1em 7em ;
-			width: 50%;
+			width: 100%;
 			border-top: solid 1px rgba(255, 255, 255, 0.15);
 			position: relative;
 		}
-
+           
 			.features section:nth-child(-n + 2) {
 				border-top-width: 0;
 			}
@@ -2560,17 +2571,25 @@ input, select, textarea {
 				}
 
 /* Image */
-
+    img{
+		width:55%;
+		
+		margin-left:10%;
+		margin-top: 10%;
+		/* padding: 1,1,1,1; */
+	}
 	.image {
 		border-radius: 0.25em;
 		border: 0;
 		display: inline-block;
 		position: relative;
+	
 	}
 
 		.image img {
 			border-radius: 0.25em;
 			display: block;
+		
 		}
 
 		.image.left, .image.right {
@@ -3139,7 +3158,7 @@ input, select, textarea {
 	}
 
 	table {
-		margin: 0 0 2em 0;
+		margin: 0 0 1em 0;
 		width: 100%;
 	}
 
@@ -3160,9 +3179,10 @@ input, select, textarea {
 		table th {
 			color: #ffffff;
 			font-size: 1em;
-			font-weight: bold;
-			padding: 0 0.75em 0.75em 0.75em;
-			text-align: left;
+			/* font-weight: bold; */
+			/* padding: 0.75em 0.75em 0.75em 2em; */
+			/* text-align: left; */
+			border:1px solid rgba(255, 255, 255, 0.15);
 		}
 
 		table thead {
@@ -3206,7 +3226,7 @@ input, select, textarea {
 	}
 
 		.wrapper > .inner {
-			padding: 5em 5em 3em 5em ;
+			padding: 2em 1em 1em 1em ;
 			max-width: 100%;
 			width: 75em;
 		}
