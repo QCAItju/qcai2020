@@ -36,6 +36,12 @@ body {
 	display: inherit;
 	font-size: inherit;
 } */
+.email{
+	width:4%;
+	height: 4%;
+	background-color:#3a9399;
+	
+}
 h1.hhh{
 	/* color:rgba(255, 255, 255, 0.75); */
 	text-align: center;
@@ -4048,7 +4054,7 @@ input, select, textarea {
 			/* font-size: 0.1em; */
 			color:rgba(255, 255, 255, 0.5);
 			font-size: large;
-			margin-left: 65%;
+			margin-left: 60%;
 			margin-top: 10%;
 			text-align:left;
 		}
