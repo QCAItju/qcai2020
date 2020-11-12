@@ -2523,6 +2523,7 @@ input, select, textarea {
 		text-decoration: none;
 		border-bottom: none;
 		position: relative;
+		font-size: 20px;
 	}
 
 		.icon:before {
@@ -2830,9 +2831,25 @@ input, select, textarea {
 		}
 
 /* Contact */
-
+/* @font-face {
+	font-family: 'iconfont';  
+	src: url('//at.alicdn.com/t/font_2199203_94m7qrmxw8p.eot');
+	src: url('//at.alicdn.com/t/font_2199203_94m7qrmxw8p.eot?#iefix') format('embedded-opentype'),
+	url('//at.alicdn.com/t/font_2199203_94m7qrmxw8p.woff2') format('woff2'),
+	url('//at.alicdn.com/t/font_2199203_94m7qrmxw8p.woff') format('woff'),
+	url('//at.alicdn.com/t/font_2199203_94m7qrmxw8p.ttf') format('truetype'),
+	url('//at.alicdn.com/t/font_2199203_94m7qrmxw8p.svg#iconfont') format('svg');
+  }
+  .iconfont{
+	  font-family: "iconfont" !important;
+	  font-size: 30px;
+	  color:red;
+	  font-style: inherit;
+	  -webkit-font-smoothing:antialiased;
+	  -moz-osx-font-smoothing:grayscale;
+  } */
 .cont{
-	margin-left: 38%;
+	margin-left: 30%;
 }
 	ul.contact {
 		list-style: none;
@@ -2841,7 +2858,17 @@ input, select, textarea {
 		/* height: 100%; */
 		margin-left: 0%;
 	}
-	
+	/* @media screen and (max-width: 980px) {
+
+		ul.contact {
+			list-style: none;
+			padding: 0 0 0 0 ;
+			font-weight: lighter;
+			/* height: 100%; */
+			margin-left: inherit;
+		}
+	} */
+
 
 		ul.contact > li {
 			padding: 0 0 0 0;
@@ -2954,7 +2981,7 @@ input, select, textarea {
 		margin-bottom: 0;
 		height: 100%;
 		padding-bottom: 0;
-		margin-left: 35%;
+		margin-left: 25%;
 	}
 
 		.split > * {
@@ -3005,7 +3032,7 @@ input, select, textarea {
 		@media screen and (max-width: 980px) {
 
 			.split {
-				display: block;
+				display: inline;
 			}
 
 				.split > * {
