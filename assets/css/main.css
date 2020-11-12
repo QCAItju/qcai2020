@@ -32,6 +32,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
+
 h1.hhh{
 	/* color:rgba(255, 255, 255, 0.75); */
 	text-align: center;
@@ -2023,7 +2024,7 @@ input, select, textarea {
 		border-radius: 0.25em;
 		border: solid 1px rgba(255, 255, 255, 0.15);
 		background: rgba(255, 255, 255, 0.05);
-		margin: 0 0 2em 0;
+		margin: 0 0 2px 0;
 		
 	}
 
@@ -3103,16 +3104,69 @@ input, select, textarea {
 				-ms-transition: opacity 1s ease, -ms-transform 1s ease;
 				transition: opacity 1s ease, transform 1s ease;
 				opacity: 1;
+				
+					text-align:justify;
+				
 			}
 
 		.spotlights > section:nth-child(2) {
-			background-color: rgba(0, 0, 0, 0.05);
+			background-color: rgba(0, 0, 0, 0.5);
 		}
 
 		.spotlights > section:nth-child(3) {
-			background-color: rgba(0, 0, 0, 0.1);
+			background-color: rgba(0, 0, 0, 0.2);
 		}
-
+		.spotlights > section:nth-child(4) {
+			background-color: rgba(0, 0, 0, 0.5);
+		}
+		.spotlights > section:nth-child(5) {
+			background-color: rgba(0, 0, 0, 0.2);
+		}
+		.spotlights > section:nth-child(6) {
+			background-color: rgba(0, 0, 0, 0.5);
+		}
+		.spotlights > section:nth-child(7) {
+			background-color: rgba(0, 0, 0, 0.2);
+		}
+		.spotlights > section:nth-child(8) {
+			background-color: rgba(0, 0, 0, 0.5);
+		}
+		.spotlights > section:nth-child(9) {
+			background-color: rgba(0, 0, 0, 0.2);
+		}
+		.spotlights > section:nth-child(10) {
+			background-color: rgba(0, 0, 0, 0.5);
+		}
+		.spotlights > section:nth-child(11) {
+			background-color: rgba(0, 0, 0, 0.2);
+		}
+		.spotlights > section:nth-child(12) {
+			background-color: rgba(0, 0, 0, 0.5);
+		}
+		.spotlights > section:nth-child(13) {
+			background-color: rgba(0, 0, 0, 0.2);
+		}
+		.spotlights > section:nth-child(14) {
+			background-color: rgba(0, 0, 0, 0.5);
+		}
+		.spotlights > section:nth-child(15) {
+			background-color: rgba(0, 0, 0, 0.2);
+		}
+		.spotlights > section:nth-child(16) {
+			background-color: rgba(0, 0, 0, 0.5);
+		}
+		.spotlights > section:nth-child(17) {
+			background-color: rgba(0, 0, 0, 0.2);
+		}
+		.spotlights > section:nth-child(18) {
+			background-color: rgba(0, 0, 0, 0.5);
+		}
+		.spotlights > section:nth-child(19) {
+			background-color: rgba(0, 0, 0, 0.2);
+		}
+		.spotlights > section:nth-child(20) {
+			background-color: rgba(0, 0, 0, 0.5);
+		}
 		.spotlights > section.inactive > .image:before,
 		body.is-preload .spotlights > section > .image:before {
 			opacity: 1;
@@ -3181,7 +3235,7 @@ input, select, textarea {
 	}
 
 	table {
-		margin: 0 0 1em 0;
+		margin: 0 0 0em 0;
 		width: 100%;
 	}
 
