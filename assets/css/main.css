@@ -53,7 +53,7 @@ img.xiaohui{
 	height: auto;
 	margin-top: 20px;
 	margin-left: 17%;
-	/* margin-bottom: 10%; */
+	margin-bottom: 5px;
 
 }
 img.xiaohui1{
@@ -61,7 +61,7 @@ img.xiaohui1{
 	height: auto;
 	margin-top: 20px;
 	margin-left: 15%;
-	/* margin-bottom: 10%; */
+	margin-bottom: 5px;
 }
 
 h1.hhh{
@@ -4078,7 +4078,7 @@ input, select, textarea {
 			color:#ffffff80;
 			font-size: large;
 			margin-left: 60%;
-			margin-top: 10%;
+			margin-top: 0%;
 			text-align:left;
 		}
 		#intro .ppp1{
