@@ -43,10 +43,19 @@ body {
 	
 }
 img.xiaohui{
-	width: 15%;
+	width: 22%;
 	height: auto;
 	margin-top: 20px;
+	margin-left: 17%;
+	/* margin-bottom: 10%; */
 
+}
+img.xiaohui1{
+	width: 27%;
+	height: auto;
+	margin-top: 20px;
+	margin-left: 15%;
+	/* margin-bottom: 10%; */
 }
 
 h1.hhh{
