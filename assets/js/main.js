@@ -187,6 +187,7 @@
 				}
 			});
 			$.ajax({
+				async:false,
 				url:'https://qcai2020.gitee.io',
 				dataType:'json',
 				data:{},
@@ -197,7 +198,7 @@
 				success:function(response){
 				//操作
 				}
-				// async:false
+				
 				});
 
 })(jQuery);
