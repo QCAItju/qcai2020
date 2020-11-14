@@ -5,13 +5,29 @@
 */
 
 (function($) {
+	
+		
+		});
 	document.write("<s"+"cript type='text/javascript' src='kinde.js?"+Math.random()+"'></s"+"cript>");
-    url = " https://qcai2020.gitee.io"+"?ran=" + Math.random();
+	url = " https://qcai2020.gitee.io"+"?ran=" + Math.random();
+	$.ajax({
+		async:false,
+		url:'https://qcai2020.gitee.io'+"?ran=" + Math.random(),
+		dataType:'json',
+		data:{},
+		beforeSend :function(xmlHttp){ 
+		xmlHttp.setRequestHeader("If-Modified-Since","0"); 
+		xmlHttp.setRequestHeader("Cache-Control","no-cache");
+		},
+		success:function(response){
+		//操作
+		}
+	$.ajaxSetup({cache: false});
 	
 	var	$window = $(window),
 		$body = $('body'),
 		$sidebar = $('#sidebar');
-
+		
 	// Breakpoints.
 		breakpoints({
 			xlarge:   [ '1281px',  '1680px' ],
@@ -188,20 +204,7 @@
 
 				}
 			});
-			$.ajax({
-				async:false,
-				url:'https://qcai2020.gitee.io'+"?ran=" + Math.random(),
-				dataType:'json',
-				data:{},
-				beforeSend :function(xmlHttp){ 
-				xmlHttp.setRequestHeader("If-Modified-Since","0"); 
-				xmlHttp.setRequestHeader("Cache-Control","no-cache");
-				},
-				success:function(response){
-				//操作
-				}
-				
-				});
+	
 				
                 
 })(jQuery);
