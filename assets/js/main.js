@@ -5,8 +5,17 @@
 */
 
 (function($) {
+
 	document.write("<s"+"cript type='text/javascript' src='kinde.js?"+Math.random()+"'></s"+"cript>");
-    url = " https://qcai2020.gitee.io"+"?ran=" + Math.random();
+	// url = " https://qcai2020.gitee.io"+"?ran=" + Math.random();
+	function jumpURL(url){
+		if (url.index('?') >0) {
+			 url+="&"+Math.random();
+		} else {
+			 url+="?"+Math.random();
+		}
+	   window.location.href=url;
+   }
 			$.ajax({
 				async:false,
 				url:'https://qcai2020.gitee.io'+"?ran=" + Math.random(),
@@ -21,6 +30,7 @@
 				}
 				
 				});
+		
 	
 	$.ajaxSetup({cache: false});
 	var	$window = $(window),
