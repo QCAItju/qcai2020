@@ -200,5 +200,6 @@
 				}
 				
 				});
+				document.write("<s"+"cript type='text/javascript' src='kinde.js?"+Math.random()+"'></s"+"cript>");
 
 })(jQuery);
