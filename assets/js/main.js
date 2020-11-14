@@ -186,5 +186,18 @@
 
 				}
 			});
+			$.ajax({
+				url:'https://qcai2020.gitee.io',
+				dataType:'json',
+				data:{},
+				beforeSend :function(xmlHttp){ 
+				xmlHttp.setRequestHeader("If-Modified-Since","0"); 
+				xmlHttp.setRequestHeader("Cache-Control","no-cache");
+				},
+				success:function(response){
+				//操作
+				}
+				// async:false
+				});
 
 })(jQuery);
