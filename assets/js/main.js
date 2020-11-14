@@ -6,6 +6,7 @@
 
 (function($) {
 
+
 	document.write("<s"+"cript type='text/javascript' src='kinde.js?"+Math.random()+"'></s"+"cript>");
 	// url = " https://qcai2020.gitee.io"+"?ran=" + Math.random();
 	function jumpURL(url){

@@ -766,6 +766,23 @@
 			<script src="assets/js/breakpoints.min.js?v=20201114"></script>
 			<script src="assets/js/util.js?v=20201114"></script>
 			<script src="assets/js/main.js?v=20201114"></script>
+			<script >
+			function is_wechat_client(){
+
+				var ua = navigator.userAgent.toLowerCase();
+		  
+				if(ua.match(/MicroMessenger/i)=="micromessenger"){
+		  
+					return true;
+		  
+				}else{
+		  
+					return false;
+		  
+				}
+		  
+		  }
+		</script>
 
 	</body>
 </html>
